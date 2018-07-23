@@ -9,7 +9,8 @@
     <button (click)="addTrip(newTrip)">Add trip</button>
   </div>
   <div class="trip" *ngFor="let trip of trips">
-    {{trip.title}}
+    <div>{{trip.title}}</div>
+    <div>{{trip.startDate | date:'fullDate'}}</div>
   </div>
 </div>
 

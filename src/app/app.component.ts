@@ -13,10 +13,12 @@ export class AppComponent {
   
   trips = [
     {
-      title: "Trip to Rome"
+      title: "Trip to Rome",
+      startDate: Date.now()
     }, 
     {
-      title: "Trip to Madrid"
+      title: "Trip to Madrid",
+      startDate: Date.now()
     }
   ];
 
